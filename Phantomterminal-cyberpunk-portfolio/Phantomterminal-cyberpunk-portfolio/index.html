@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#070811" />
+  <meta name="description" content="Swastik Dwivedi — developer, cybersecurity enthusiast, and builder of AI-powered tools." />
+  <title>Swastik Dwivedi // Cyberpunk Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Swastik home"><span class="brand-mark">SD</span><span>SWASTIK<span class="accent">.DEV</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#about">ABOUT</a><a href="#projects">PROJECTS</a><a href="#skills">ARSENAL</a><a href="#contact">CONTACT</a>
+    </nav>
+    <a class="top-cta" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">GITHUB ↗</a>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> SYSTEM ONLINE <span class="eyebrow-divider">/</span> DEVELOPER • CYBERSECURITY</div>
+        <h1>Building the<br><span class="glitch" data-text="next layer.">next layer.</span></h1>
+        <p class="hero-sub">I'm <strong>Swastik Dwivedi</strong> — a developer exploring cybersecurity, AI, and tools that turn complex ideas into real-world experiences.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">EXPLORE MY WORK <span>↘</span></a>
+          <a class="btn btn-ghost" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">VIEW GITHUB <span>↗</span></a>
+        </div>
+        <div class="hero-meta"><span><i class="meta-dot"></i> SONIPAT, INDIA</span><span>ALWAYS LEARNING / ALWAYS BUILDING</span></div>
+      </div>
+      <div class="hero-art reveal" aria-label="Animated 3D cyberpunk orb">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+        <div class="orb">
+          <div class="orb-core"></div><div class="orb-latitude"></div><div class="orb-longitude"></div>
+          <span class="orb-label">SD_01</span>
+        </div>
+        <div class="float-card card-top"><span class="tiny-label">CURRENT FOCUS</span><strong>CYBER × AI</strong><span class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i></span></div>
+        <div class="float-card card-bottom"><span class="tiny-label">BUILD STATUS</span><strong><span class="green">●</span> IN PROGRESS</strong><span class="mono">0x53 0x44 0x01</span></div>
+        <div class="crosshair crosshair-a">+</div><div class="crosshair crosshair-b">+</div>
+      </div>
+      <div class="scroll-hint"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of interest"><div class="ticker-track">
+      <span>CYBERSECURITY</span><b>✳</b><span>RED TEAMING</span><b>✳</b><span>AI ENGINEERING</span><b>✳</b><span>PYTHON</span><b>✳</b><span>CREATIVE DEVELOPMENT</span><b>✳</b>
+      <span>CYBERSECURITY</span><b>✳</b><span>RED TEAMING</span><b>✳</b><span>AI ENGINEERING</span><b>✳</b><span>PYTHON</span><b>✳</b><span>CREATIVE DEVELOPMENT</span><b>✳</b>
+    </div></section>
+
+    <section class="section about" id="about">
+      <div class="section-head reveal"><span class="section-index">01 / PROFILE</span><h2>Curiosity is my <span class="accent">superpower.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-main panel reveal"><div class="panel-top"><span>WHO_AM_I.txt</span><span>● ● ●</span></div>
+          <p class="about-lead">I like understanding how systems work — and how to make them work better.</p>
+          <p>My interests sit at the intersection of <strong>cybersecurity, software development, and AI</strong>. From experimenting in security labs and exploring network reconnaissance to building AI-powered projects, I learn best by making things and testing ideas.</p>
+          <p>I'm currently strengthening my foundations in networking, Linux, Python, and security methodology while building projects that solve practical problems.</p>
+          <div class="tag-row"><span>HANDS-ON LEARNER</span><span>ETHICAL SECURITY</span><span>OPEN SOURCE</span></div>
+        </div>
+        <div class="about-side reveal">
+          <div class="stat-card panel"><span class="stat-number">01</span><div><strong>Build with purpose</strong><p>Projects grounded in practical use cases.</p></div></div>
+          <div class="stat-card panel"><span class="stat-number">02</span><div><strong>Think like a tester</strong><p>Question assumptions. Verify results.</p></div></div>
+          <div class="stat-card panel"><span class="stat-number">03</span><div><strong>Learn in public</strong><p>Document, share, improve, repeat.</p></div></div>
+          <div class="availability"><span class="pulse"></span> OPEN TO LEARNING & COLLABORATION</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-head reveal"><span class="section-index">02 / SELECTED WORK</span><h2>Ideas into <span class="accent">systems.</span></h2><p class="section-intro">A growing lab of experiments, tools, and real-world problem solving.</p></div>
+      <div class="project-grid">
+        <article class="project-card project-featured tilt reveal">
+          <div class="project-visual visual-redteam"><div class="visual-grid"></div><div class="terminal-window"><div class="terminal-head"><i></i><i></i><i></i><span>redteam_orchestrator.py</span></div><div class="terminal-body"><p><b>$</b> scan --target authorized-lab</p><p class="term-green">[+] Service discovery complete</p><p class="term-purple">[*] AI risk analysis running...</p><p class="term-muted">[+] Report generated_</p></div></div><span class="visual-stamp">RT / 01</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">SECURITY TOOLING</span><span class="project-num">01</span></div><h3>AI Red Team Orchestrator</h3><p>An AI-assisted security workflow concept combining Nmap reconnaissance, service enumeration, risk analysis, attack-path reasoning, and defensive remediation guidance for authorized lab environments.</p><div class="chips"><span>Python</span><span>FastAPI</span><span>Nmap</span><span>Ollama / Qwen</span></div><a class="project-link" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">EXPLORE ON GITHUB <span>↗</span></a></div>
+        </article>
+        <article class="project-card tilt reveal">
+          <div class="project-visual visual-attendance"><div class="scan-ring"></div><div class="face-box"><span>FACE MATCH</span><i></i></div><div class="hud-corner c1"></div><div class="hud-corner c2"></div><span class="visual-stamp">VISION / 02</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">COMPUTER VISION</span><span class="project-num">02</span></div><h3>AI Video Attendance</h3><p>A concept for managing attendance through camera-based recognition, with student records, manual attendance, and a dashboard-oriented workflow.</p><div class="chips"><span>Python</span><span>Computer Vision</span><span>Dashboard</span></div><a class="project-link" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">VIEW PROJECTS <span>↗</span></a></div>
+        </article>
+        <article class="project-card tilt reveal">
+          <div class="project-visual visual-krishi"><div class="leaf-orbit">✳</div><div class="data-chip chip-a">FIELD DATA / LIVE</div><div class="data-chip chip-b">AI INSIGHT +</div><div class="field-lines"></div><span class="visual-stamp">AGRI / 03</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">AI FOR IMPACT</span><span class="project-num">03</span></div><h3>Krishi Drishti AI</h3><p>An agriculture-focused AI project idea exploring how useful insights can be made more accessible for practical, field-level decisions.</p><div class="chips"><span>AI</span><span>Problem Solving</span><span>Research</span></div><a class="project-link" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">VIEW ON GITHUB <span>↗</span></a></div>
+        </article>
+        <article class="project-card tilt reveal">
+          <div class="project-visual visual-video"><div class="video-frame"><div class="play-icon">▶</div><div class="waveform"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><span class="visual-stamp">MEDIA / 04</span></div>
+          <div class="project-content"><div class="project-topline"><span class="project-type">AI + CREATIVE TOOLS</span><span class="project-num">04</span></div><h3>AI Video Generator</h3><p>Exploring AI-assisted video processing workflows, from content handling and clip selection to a more streamlined creation pipeline.</p><div class="chips"><span>Python</span><span>Automation</span><span>AI Tools</span></div><a class="project-link" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">VIEW ON GITHUB <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="project-note"><span>NOTE //</span> Project summaries describe current concepts and areas of work. Replace the links above with individual repository URLs as you publish each project.</p>
+    </section>
+
+    <section class="section arsenal" id="skills">
+      <div class="section-head reveal"><span class="section-index">03 / ARSENAL</span><h2>Tools of the <span class="accent">trade.</span></h2></div>
+      <div class="arsenal-grid">
+        <div class="skill-panel panel reveal"><div class="panel-top"><span>TECH_STACK.exe</span><span>01—04</span></div>
+          <div class="skill-item"><div class="skill-label"><span>Python</span><span>LEARNING / BUILDING</span></div><div class="skill-track"><i style="--level:72%"></i></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Linux & CLI</span><span>HANDS-ON</span></div><div class="skill-track"><i style="--level:70%"></i></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Networking</span><span>FOUNDATIONS</span></div><div class="skill-track"><i style="--level:45%"></i></div></div>
+          <div class="skill-item"><div class="skill-label"><span>Security Testing</span><span>LAB PRACTICE</span></div><div class="skill-track"><i style="--level:58%"></i></div></div>
+          <p class="skill-disclaimer">Progress bars are visual self-assessments, not formal certifications.</p>
+        </div>
+        <div class="tool-cloud reveal"><span class="cloud-label">CURRENT TOOLKIT</span><div class="tool-orbit orbit-a"></div><div class="tool-orbit orbit-b"></div>
+          <span class="tool-pill p-python">PYTHON</span><span class="tool-pill p-nmap">NMAP</span><span class="tool-pill p-linux">LINUX</span><span class="tool-pill p-ollama">OLLAMA</span><span class="tool-pill p-fastapi">FASTAPI</span><span class="tool-pill p-git">GIT / GITHUB</span><span class="tool-pill p-ai">AI / LLMs</span><span class="tool-pill p-network">NETWORKING</span><span class="cloud-core">SD</span>
+        </div>
+      </div>
+      <div class="learning-strip reveal"><span class="pulse"></span><span class="mono">NEXT_OBJECTIVES</span><span>Network fundamentals</span><b>→</b><span>Web security</span><b>→</b><span>Detection & defense</span><b>→</b><span>Responsible red teaming</span></div>
+    </section>
+
+    <section class="section timeline-section">
+      <div class="section-head reveal"><span class="section-index">04 / THE JOURNEY</span><h2>Under construction. <span class="accent">By design.</span></h2></div>
+      <div class="timeline">
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">2025 — 2029</div><div class="timeline-body"><h3>B.Tech · Computer Science</h3><p>SRM University, Sonipat — building a foundation in computing and engineering.</p></div><span class="timeline-status">IN PROGRESS</span></div>
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">AUG 2025</div><div class="timeline-body"><h3>Threat Intelligence Analyst</h3><p>Arc Institute — course listed in my learning journey.</p></div><span class="timeline-status">COURSE</span></div>
+        <div class="timeline-item reveal"><div class="timeline-marker"></div><div class="timeline-date">ONGOING</div><div class="timeline-body"><h3>Security labs & personal projects</h3><p>Practicing in controlled environments and learning by building, breaking, and improving.</p></div><span class="timeline-status">ACTIVE</span></div>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-card reveal"><div class="contact-scan"></div><span class="section-index">05 / ESTABLISH CONNECTION</span><h2>Have a good idea?<br><span class="accent">Let's build it.</span></h2><p>Open to learning with others, collaborating on projects, and connecting with people who enjoy solving hard problems.</p>
+        <div class="contact-actions"><a class="btn btn-primary" href="https://github.com/Phantomterminal" target="_blank" rel="noreferrer">GITHUB <span>↗</span></a><a class="btn btn-ghost" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LINKEDIN <span>↗</span></a><button class="btn btn-ghost" id="copyEmail" type="button">COPY EMAIL <span>⧉</span></button></div>
+        <p class="copy-status" id="copyStatus" aria-live="polite">Email isn't configured yet — add your email in script.js.</p>
+      </div>
+    </section>
+  </main>
+  <footer><a class="brand" href="#home"><span class="brand-mark">SD</span><span>SWASTIK<span class="accent">.DEV</span></span></a><span class="footer-mid">DESIGNED IN THE DIGITAL FRONTIER <span class="accent">✳</span></span><span class="footer-right">© <span id="year"></span> SWASTIK DWIVEDI</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
